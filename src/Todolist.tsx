@@ -1,5 +1,6 @@
 import React from 'react'
 import {TaskType} from "./App";
+import {Button} from "./Button";
 
 type PropsType = {
     title: string
@@ -14,7 +15,7 @@ export const Todolist = ({ title, tasks, date }: PropsType) => {
             <div>{tasks.map(t => t.title)}</div>
             <div>
                 <input/>
-                <button>+</button>
+                <Button title={'+'} />
             </div>
             <ul>
                 {tasks.map(task => {
@@ -27,9 +28,9 @@ export const Todolist = ({ title, tasks, date }: PropsType) => {
                 })}
             </ul>
             <div>
-                <button>All</button>
-                <button>Active</button>
-                <button>Completed</button>
+                <Button title={'All'} />
+                <Button title={'Active'} />
+                <Button title={'Completed'} />
             </div>
             <div>{date}</div>
         </div>
