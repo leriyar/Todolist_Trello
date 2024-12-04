@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Todolist_Trello/static/css/main.bbb55728.css",
+    "main.js": "/Todolist_Trello/static/js/main.b9e47631.js",
+    "index.html": "/Todolist_Trello/index.html",
+    "main.bbb55728.css.map": "/Todolist_Trello/static/css/main.bbb55728.css.map",
+    "main.b9e47631.js.map": "/Todolist_Trello/static/js/main.b9e47631.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbb55728.css",
+    "static/js/main.b9e47631.js"
+  ]
+}
